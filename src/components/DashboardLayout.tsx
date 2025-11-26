@@ -1,6 +1,6 @@
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { DashboardSidebar } from "./DashboardSidebar";
-import { Footer } from "./Footer";
+// import { Footer } from "./Footer";
 import { ReactNode } from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
 
@@ -39,7 +39,7 @@ export const DashboardLayout = ({ children }: DashboardLayoutProps) => {
             <div className="flex-1">
               {children}
             </div>
-            <Footer />
+            {/* <Footer /> */}
           </main>
         </div>
       </div>
