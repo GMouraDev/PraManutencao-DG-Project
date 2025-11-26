@@ -1413,7 +1413,7 @@ export const fleetVehicles: Vehicle[] = [
     status: "Em Oficina - Rentals",
     motivo: "Oficina - Embregem - Della via Limão",
     entradaOFC: "11/11/2025",
-    previsaoSaida: "21/11/2025",
+    previsaoSaida: "28/11/2025",
     uf: "SP",
     // Novos campos
     placaReserva: null,
@@ -1435,7 +1435,7 @@ export const fleetVehicles: Vehicle[] = [
     licensePlate: "RTM9F11",
     reason: "Oficina - Embregem - Della via Limão",
     entryDate: "11/11/2025",
-    returnForecast: "21/11/2025",
+    returnForecast: "28/11/2025",
     model: "Delivery Express",
     driver: null
   },
@@ -1672,7 +1672,7 @@ export const fleetVehicles: Vehicle[] = [
     status: "Em Oficina - Rentals",
     motivo: "Oficina - Sinistro/Colisão Frontal - Greco",
     entradaOFC: "11/11/2025",
-    previsaoSaida: "05/12/2025",
+    previsaoSaida: "12/12/2025",
     uf: "SP",
     // Novos campos
     placaReserva: null,
@@ -1694,7 +1694,7 @@ export const fleetVehicles: Vehicle[] = [
     licensePlate: "RTT1B45",
     reason: "Oficina - Sinistro/Colisão Frontal - Greco",
     entryDate: "11/11/2025",
-    returnForecast: "05/12/2025",
+    returnForecast: "12/12/2025",
     model: "Delivery Express",
     driver: null
   },
@@ -1817,9 +1817,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Locação",
     base: "BRRC01",
-    status: "Em Operação",
-    motivo: "-",
-    entradaOFC: null,
+    status: "Aguardando Oficina",
+    motivo: "Manutenção - Verificar se tem solicitação",
+    entradaOFC: "25/11/2025",
     previsaoSaida: null,
     uf: "SP",
     // Novos campos
@@ -1837,11 +1837,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Localiza",
     gestor: "Flávio Rodrigues",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota em Manutenção",
     // Campos de compatibilidade
     licensePlate: "RUB2D01",
-    reason: "-",
-    entryDate: null,
+    reason: "Manutenção - Verificar se tem solicitação",
+    entryDate: "25/11/2025",
     returnForecast: null,
     model: "Delivery Express",
     driver: null
@@ -1928,9 +1928,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Caminhão 3/4",
     tipoFrota: "Locação",
     base: "BRRC01",
-    status: "Sem Rota",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "24/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "SP",
     // Novos campos
@@ -1948,11 +1948,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Localiza",
     gestor: "Flávio Rodrigues",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "RUN2B48",
     reason: "-",
-    entryDate: "24/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "Delivery MT 4.2 2P",
     driver: null
@@ -2335,9 +2335,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Caminhão 3/4",
     tipoFrota: "Locação",
     base: "BRRC01",
-    status: "Em Operação",
-    motivo: "-",
-    entradaOFC: null,
+    status: "Aguardando Oficina",
+    motivo: "Manutenção - Verificar se tem solicitação",
+    entradaOFC: "25/11/2025",
     previsaoSaida: null,
     uf: "SP",
     // Novos campos
@@ -2355,11 +2355,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Localiza",
     gestor: "Flávio Rodrigues",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota em Manutenção",
     // Campos de compatibilidade
     licensePlate: "RUN2B61",
-    reason: "-",
-    entryDate: null,
+    reason: "Manutenção - Verificar se tem solicitação",
+    entryDate: "25/11/2025",
     returnForecast: null,
     model: "Delivery MT 4.2 2P",
     driver: null
@@ -2742,10 +2742,10 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Caminhão 3/4",
     tipoFrota: "Locação",
     base: "BRRC01",
-    status: "Em Oficina - Rentals",
-    motivo: "Oficina - Cambio , Retrovisor e Elétrica",
+    status: "Veículo Pronto",
+    motivo: "Oficina - Cambio , Retrovisor e Elétrica - Sim Manutenção - Veículo Pronto 26/11",
     entradaOFC: "20/11/2025",
-    previsaoSaida: null,
+    previsaoSaida: "26/11/2025",
     uf: "SP",
     // Novos campos
     placaReserva: null,
@@ -2762,12 +2762,12 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Localiza",
     gestor: "Flávio Rodrigues",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Manutenção",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "RUP2B56",
-    reason: "Oficina - Cambio , Retrovisor e Elétrica",
+    reason: "Oficina - Cambio , Retrovisor e Elétrica - Sim Manutenção - Veículo Pronto 26/11",
     entryDate: "20/11/2025",
-    returnForecast: null,
+    returnForecast: "26/11/2025",
     model: "Delivery MT 4.2 2P",
     driver: null
   },
@@ -2854,9 +2854,9 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrota: "Locação",
     base: "BRRC01",
     status: "Em Oficina - Rentals",
-    motivo: "Oficina - Pane Elétrica - Sim Manutenção",
+    motivo: "Oficina - Pane Elétrica e Motor - Sim Manutenção",
     entradaOFC: "20/11/2025",
-    previsaoSaida: null,
+    previsaoSaida: "05/12/2025",
     uf: "SP",
     // Novos campos
     placaReserva: "TAS5A44",
@@ -2876,9 +2876,9 @@ export const fleetVehicles: Vehicle[] = [
     resumoStatus: "Frota em Manutenção",
     // Campos de compatibilidade
     licensePlate: "RUP4H81",
-    reason: "Oficina - Pane Elétrica - Sim Manutenção",
+    reason: "Oficina - Pane Elétrica e Motor - Sim Manutenção",
     entryDate: "20/11/2025",
-    returnForecast: null,
+    returnForecast: "05/12/2025",
     model: "Master Chassi L2H1 2.3 2P",
     driver: null
   },
@@ -2890,9 +2890,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Locação",
     base: "BRRC01",
-    status: "Em Operação",
-    motivo: "-",
-    entradaOFC: null,
+    status: "Aguardando Oficina",
+    motivo: "Manutenção - Verificar se tem solicitação",
+    entradaOFC: "25/11/2025",
     previsaoSaida: null,
     uf: "SP",
     // Novos campos
@@ -2910,11 +2910,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Localiza",
     gestor: "Flávio Rodrigues",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota em Manutenção",
     // Campos de compatibilidade
     licensePlate: "RUP4H82",
-    reason: "-",
-    entryDate: null,
+    reason: "Manutenção - Verificar se tem solicitação",
+    entryDate: "25/11/2025",
     returnForecast: null,
     model: "Master Chassi L2H1 2.3 2P",
     driver: null
@@ -2967,7 +2967,7 @@ export const fleetVehicles: Vehicle[] = [
     status: "Em Oficina - Rentals",
     motivo: "Oficina - Freio , Estepe e Elétrica - Vitória Diesel",
     entradaOFC: "18/11/2025",
-    previsaoSaida: "26/11/2025",
+    previsaoSaida: "28/11/2025",
     uf: "SP",
     // Novos campos
     placaReserva: null,
@@ -2989,7 +2989,7 @@ export const fleetVehicles: Vehicle[] = [
     licensePlate: "RUP4H87",
     reason: "Oficina - Freio , Estepe e Elétrica - Vitória Diesel",
     entryDate: "18/11/2025",
-    returnForecast: "26/11/2025",
+    returnForecast: "28/11/2025",
     model: "Master Chassi L2H1 2.3 2P",
     driver: null
   },
@@ -3076,7 +3076,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrota: "Locação",
     base: "BRRC01",
     status: "Em Oficina - Rentals",
-    motivo: "Oficina - Não Liga - Voltruck",
+    motivo: "Oficina - Bloco do Motor - Voltruck",
     entradaOFC: "25/10/2025",
     previsaoSaida: "01/12/2025",
     uf: "SP",
@@ -3098,7 +3098,7 @@ export const fleetVehicles: Vehicle[] = [
     resumoStatus: "Frota em Manutenção",
     // Campos de compatibilidade
     licensePlate: "RUQ9D16",
-    reason: "Oficina - Não Liga - Voltruck",
+    reason: "Oficina - Bloco do Motor - Voltruck",
     entryDate: "25/10/2025",
     returnForecast: "01/12/2025",
     model: "Master Chassi L2H1 2.3 2P",
@@ -3667,9 +3667,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Caminhão 3/4",
     tipoFrota: "Locação",
     base: "BRRC01",
-    status: "Sem Rota",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "15/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "SP",
     // Novos campos
@@ -3687,11 +3687,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Localiza",
     gestor: "Flávio Rodrigues",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "RVC4G70",
     reason: "-",
-    entryDate: "15/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "Accelo 815 MT 4x2 4.8 2P",
     driver: null
@@ -3815,9 +3815,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Locação",
     base: "BRRC01",
-    status: "Sem Rota",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "20/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "SP",
     // Novos campos
@@ -3835,11 +3835,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Localiza",
     gestor: "Flávio Rodrigues",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "RVT2J98",
     reason: "-",
-    entryDate: "20/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "Master Chassi L2H1 2.3 2P",
     driver: null
@@ -3852,8 +3852,8 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Locação",
     base: "BRRC01",
-    status: "Veículo Pronto",
-    motivo: "Oficina - Freio - Voltruck - Veículo Pronto 25/11",
+    status: "Pós-Oficina",
+    motivo: "Oficina - Freio - Voltruck - Veículo Pronto 25/11 - Retirado 26/11",
     entradaOFC: "22/11/2025",
     previsaoSaida: "25/11/2025",
     uf: "SP",
@@ -3875,7 +3875,7 @@ export const fleetVehicles: Vehicle[] = [
     resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "RVT4F18",
-    reason: "Oficina - Freio - Voltruck - Veículo Pronto 25/11",
+    reason: "Oficina - Freio - Voltruck - Veículo Pronto 25/11 - Retirado 26/11",
     entryDate: "22/11/2025",
     returnForecast: "25/11/2025",
     model: "Master Chassi L2H1 2.3 2P",
@@ -4003,7 +4003,7 @@ export const fleetVehicles: Vehicle[] = [
     status: "Em Oficina - Rentals",
     motivo: "Oficina - Freio e Vazamento - Greco",
     entradaOFC: "14/11/2025",
-    previsaoSaida: null,
+    previsaoSaida: "05/12/2025",
     uf: "SP",
     // Novos campos
     placaReserva: "TOI9G19",
@@ -4025,7 +4025,7 @@ export const fleetVehicles: Vehicle[] = [
     licensePlate: "SHB4B37",
     reason: "Oficina - Freio e Vazamento - Greco",
     entryDate: "14/11/2025",
-    returnForecast: null,
+    returnForecast: "05/12/2025",
     model: "Master Chassi L2H1 2.3 2P",
     driver: null
   },
@@ -4040,7 +4040,7 @@ export const fleetVehicles: Vehicle[] = [
     status: "Em Oficina - Rentals",
     motivo: "Oficina - Eletrica e Painel - Rm Truck",
     entradaOFC: "14/11/2025",
-    previsaoSaida: "21/11/2025",
+    previsaoSaida: "28/11/2025",
     uf: "SP",
     // Novos campos
     placaReserva: "SGL8E73",
@@ -4062,7 +4062,7 @@ export const fleetVehicles: Vehicle[] = [
     licensePlate: "SHB4B39",
     reason: "Oficina - Eletrica e Painel - Rm Truck",
     entryDate: "14/11/2025",
-    returnForecast: "21/11/2025",
+    returnForecast: "28/11/2025",
     model: "Master Chassi L2H1 2.3 2P",
     driver: null
   },
@@ -4518,9 +4518,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Locação",
     base: "BRRC01",
-    status: "Em Oficina - Externo",
-    motivo: "Oficina  - Pneus, Preventiva e suspensão - Della Via - Aprovado 21/11",
-    entradaOFC: "06/11/2025",
+    status: "Em Operação",
+    motivo: "-",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "SP",
     // Novos campos
@@ -4538,11 +4538,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "TKS",
     gestor: "Flávio Rodrigues",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Manutenção",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TAO4F90",
-    reason: "Oficina  - Pneus, Preventiva e suspensão - Della Via - Aprovado 21/11",
-    entryDate: "06/11/2025",
+    reason: "-",
+    entryDate: null,
     returnForecast: null,
     model: "Daily 35Cs",
     driver: null
@@ -4814,9 +4814,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Locação",
     base: "BRRC01",
-    status: "Sem Rota",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "15/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "SP",
     // Novos campos
@@ -4834,11 +4834,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "TKS",
     gestor: "Flávio Rodrigues",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TAQ6J50",
     reason: "-",
-    entryDate: "15/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "Daily 35Cs",
     driver: null
@@ -5150,7 +5150,7 @@ export const fleetVehicles: Vehicle[] = [
     status: "Em Oficina - Rentals",
     motivo: "Oficina - Bateria e Freio - Mb",
     entradaOFC: "12/11/2025",
-    previsaoSaida: "21/11/2025",
+    previsaoSaida: "27/11/2025",
     uf: "SP",
     // Novos campos
     placaReserva: null,
@@ -5172,7 +5172,7 @@ export const fleetVehicles: Vehicle[] = [
     licensePlate: "RUP4H91",
     reason: "Oficina - Bateria e Freio - Mb",
     entryDate: "12/11/2025",
-    returnForecast: "21/11/2025",
+    returnForecast: "27/11/2025",
     model: "Master Chassi L2H1 2.3 2P",
     driver: null
   },
@@ -5369,10 +5369,10 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Locação",
     base: "BRRC01",
-    status: "Aguardando Oficina",
-    motivo: "Manutenção - Verificar se tem solicitação",
+    status: "Em Oficina - Rentals",
+    motivo: "Oficina - Caixa de Marcha e Preventiva - Vitória Diesel",
     entradaOFC: "22/11/2025",
-    previsaoSaida: null,
+    previsaoSaida: "05/12/2025",
     uf: "SP",
     // Novos campos
     placaReserva: null,
@@ -5392,9 +5392,9 @@ export const fleetVehicles: Vehicle[] = [
     resumoStatus: "Frota em Manutenção",
     // Campos de compatibilidade
     licensePlate: "RTM9F10",
-    reason: "Manutenção - Verificar se tem solicitação",
+    reason: "Oficina - Caixa de Marcha e Preventiva - Vitória Diesel",
     entryDate: "22/11/2025",
-    returnForecast: null,
+    returnForecast: "05/12/2025",
     model: "Delivery Express",
     driver: null
   },
@@ -7404,9 +7404,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "BRRC02",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "SEGUNDA À SEXTA",
-    entradaOFC: null,
+    entradaOFC: "25/11/2025",
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -7424,11 +7424,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Flávio Rodrigues",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SGL8C96",
     reason: "SEGUNDA À SEXTA",
-    entryDate: null,
+    entryDate: "25/11/2025",
     returnForecast: null,
     model: "Daily 30Cs",
     driver: null
@@ -8070,7 +8070,7 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Locação",
     base: "BRXMG2",
-    status: "Sem Rota",
+    status: "Em Operação",
     motivo: "-",
     entradaOFC: null,
     previsaoSaida: null,
@@ -8090,7 +8090,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "TKS",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TAS2E25",
     reason: "-",
@@ -8255,7 +8255,7 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "BRXPR4",
-    status: "Sem Rota",
+    status: "Em Operação",
     motivo: "SEGUNDA À SEXTA",
     entradaOFC: null,
     previsaoSaida: null,
@@ -8275,7 +8275,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SGJ9G45",
     reason: "SEGUNDA À SEXTA",
@@ -8514,9 +8514,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Locação",
     base: "BRXRS1",
-    status: "Em Operação",
-    motivo: "-",
-    entradaOFC: null,
+    status: "Aguardando Oficina",
+    motivo: "Manutenção - Verificar se tem solicitação",
+    entradaOFC: "25/11/2025",
     previsaoSaida: null,
     uf: "RS",
     // Novos campos
@@ -8534,11 +8534,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "LM",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota em Manutenção",
     // Campos de compatibilidade
     licensePlate: "SSV6C52",
-    reason: "-",
-    entryDate: null,
+    reason: "Manutenção - Verificar se tem solicitação",
+    entryDate: "25/11/2025",
     returnForecast: null,
     model: "Express Drf 4X2",
     driver: null
@@ -14693,9 +14693,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Van Elétrica",
     tipoFrota: "Própria",
     base: "SES1",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "25/11/2025",
     previsaoSaida: null,
     uf: "ES",
     // Novos campos
@@ -14713,11 +14713,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "LUC9B72",
     reason: "-",
-    entryDate: null,
+    entryDate: "25/11/2025",
     returnForecast: null,
     model: "E-Expert Cargo Zero",
     driver: null
@@ -14915,9 +14915,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Van",
     tipoFrota: "Locação",
     base: "SES1",
-    status: "Aguardando Oficina",
-    motivo: "Manutenção - Verificar se tem solicitação",
-    entradaOFC: "24/11/2025",
+    status: "Em Operação",
+    motivo: "-",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "ES",
     // Novos campos
@@ -14935,11 +14935,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Localiza",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Manutenção",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "RNG5A23",
-    reason: "Manutenção - Verificar se tem solicitação",
-    entryDate: "24/11/2025",
+    reason: "-",
+    entryDate: null,
     returnForecast: null,
     model: "Master Furgão L1H1 8m³ 2.3 2P",
     driver: null
@@ -14955,7 +14955,7 @@ export const fleetVehicles: Vehicle[] = [
     status: "Em Oficina - Rentals",
     motivo: "Oficina - Embreagem - Paulo Car",
     entradaOFC: "21/11/2025",
-    previsaoSaida: null,
+    previsaoSaida: "08/12/2025",
     uf: "ES",
     // Novos campos
     placaReserva: null,
@@ -14977,7 +14977,7 @@ export const fleetVehicles: Vehicle[] = [
     licensePlate: "RVB3D48",
     reason: "Oficina - Embreagem - Paulo Car",
     entryDate: "21/11/2025",
-    returnForecast: null,
+    returnForecast: "08/12/2025",
     model: "Master Furgão L1H1 8m³ 2.3 2P",
     driver: null
   },
@@ -14989,10 +14989,10 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Van",
     tipoFrota: "Locação",
     base: "SES1",
-    status: "Aguardando Oficina",
-    motivo: "Manutenção - Verificar se tem solicitação",
+    status: "Em Oficina - Rentals",
+    motivo: "Oficina - Sistema Anti Poluição , Freio e Preveniva - Paulo Car",
     entradaOFC: "24/11/2025",
-    previsaoSaida: null,
+    previsaoSaida: "05/12/2025",
     uf: "ES",
     // Novos campos
     placaReserva: null,
@@ -15012,9 +15012,9 @@ export const fleetVehicles: Vehicle[] = [
     resumoStatus: "Frota em Manutenção",
     // Campos de compatibilidade
     licensePlate: "RVB3D49",
-    reason: "Manutenção - Verificar se tem solicitação",
+    reason: "Oficina - Sistema Anti Poluição , Freio e Preveniva - Paulo Car",
     entryDate: "24/11/2025",
-    returnForecast: null,
+    returnForecast: "05/12/2025",
     model: "Master Furgão L1H1 8m³ 2.3 2P",
     driver: null
   },
@@ -15914,9 +15914,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SES1",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "25/11/2025",
     previsaoSaida: null,
     uf: "ES",
     // Novos campos
@@ -15934,11 +15934,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "RJR9I47",
     reason: "-",
-    entryDate: null,
+    entryDate: "25/11/2025",
     returnForecast: null,
     model: "Express Drf 4X2",
     driver: null
@@ -15988,9 +15988,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SES1",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "25/11/2025",
     previsaoSaida: null,
     uf: "ES",
     // Novos campos
@@ -16008,11 +16008,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SQV0E02",
     reason: "-",
-    entryDate: null,
+    entryDate: "25/11/2025",
     returnForecast: null,
     model: "Bongo UK2500 HD SC 4WD",
     driver: null
@@ -16247,9 +16247,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SES1",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "25/11/2025",
     previsaoSaida: null,
     uf: "ES",
     // Novos campos
@@ -16267,11 +16267,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL2G28",
     reason: "-",
-    entryDate: null,
+    entryDate: "25/11/2025",
     returnForecast: null,
     model: "Sprinter C 317",
     driver: null
@@ -16284,9 +16284,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SES1",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "25/11/2025",
     previsaoSaida: null,
     uf: "ES",
     // Novos campos
@@ -16304,11 +16304,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL2G04",
     reason: "-",
-    entryDate: null,
+    entryDate: "25/11/2025",
     returnForecast: null,
     model: "Sprinter C 317",
     driver: null
@@ -16321,9 +16321,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SES1",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "25/11/2025",
     previsaoSaida: null,
     uf: "ES",
     // Novos campos
@@ -16341,11 +16341,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL2D35",
     reason: "-",
-    entryDate: null,
+    entryDate: "25/11/2025",
     returnForecast: null,
     model: "Sprinter C 317",
     driver: null
@@ -16395,9 +16395,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SES1",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "25/11/2025",
     previsaoSaida: null,
     uf: "ES",
     // Novos campos
@@ -16415,11 +16415,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL2C79",
     reason: "-",
-    entryDate: null,
+    entryDate: "25/11/2025",
     returnForecast: null,
     model: "Sprinter C 317",
     driver: null
@@ -16432,9 +16432,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SES1",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "25/11/2025",
     previsaoSaida: null,
     uf: "ES",
     // Novos campos
@@ -16452,11 +16452,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL2F01",
     reason: "-",
-    entryDate: null,
+    entryDate: "25/11/2025",
     returnForecast: null,
     model: "Sprinter C 317",
     driver: null
@@ -16469,9 +16469,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SES1",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "25/11/2025",
     previsaoSaida: null,
     uf: "ES",
     // Novos campos
@@ -16489,11 +16489,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL1J00",
     reason: "-",
-    entryDate: null,
+    entryDate: "25/11/2025",
     returnForecast: null,
     model: "Sprinter C 317",
     driver: null
@@ -16711,7 +16711,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "LM",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SVA4A93",
     reason: "-",
@@ -17007,7 +17007,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL2A49",
     reason: "-",
@@ -17044,7 +17044,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL2D53",
     reason: "-",
@@ -17081,7 +17081,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL2D96",
     reason: "-",
@@ -17155,7 +17155,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL2I62",
     reason: "-",
@@ -17192,7 +17192,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL2B93",
     reason: "-",
@@ -17229,7 +17229,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL2C63",
     reason: "-",
@@ -17357,9 +17357,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Van Elétrica",
     tipoFrota: "Própria",
     base: "SMG14",
-    status: "Folga",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "24/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "MG",
     // Novos campos
@@ -17377,11 +17377,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Folga",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SQW4C66",
     reason: "-",
-    entryDate: "24/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "I/Jac Ejv5.5",
     driver: null
@@ -17431,9 +17431,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Utilitário",
     tipoFrota: "Própria",
     base: "SMG14",
-    status: "Sem Motorista",
-    motivo: "Sem Motorista - em Captação",
-    entradaOFC: "14/11/2025",
+    status: "Em Operação",
+    motivo: "-",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "MG",
     // Novos campos
@@ -17451,11 +17451,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SQY3C01",
-    reason: "Sem Motorista - em Captação",
-    entryDate: "14/11/2025",
+    reason: "-",
+    entryDate: null,
     returnForecast: null,
     model: "Partner",
     driver: null
@@ -17747,7 +17747,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Daycoval",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SRG4G64",
     reason: "-",
@@ -17784,7 +17784,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SRJ1F21",
     reason: "-",
@@ -17801,9 +17801,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Van Elétrica",
     tipoFrota: "Própria",
     base: "SMG14",
-    status: "Sem Motorista",
-    motivo: "Em Captação - Sem Previsão",
-    entradaOFC: "24/11/2025",
+    status: "Em Operação",
+    motivo: "-",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "MG",
     // Novos campos
@@ -17821,11 +17821,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SRK1F89",
-    reason: "Em Captação - Sem Previsão",
-    entryDate: "24/11/2025",
+    reason: "-",
+    entryDate: null,
     returnForecast: null,
     model: "I/Jac Ejv5.5",
     driver: null
@@ -17875,9 +17875,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Van Elétrica",
     tipoFrota: "Própria",
     base: "SMG14",
-    status: "Sem Motorista",
-    motivo: "Em Captação - Sem Previsão",
-    entradaOFC: "24/11/2025",
+    status: "Em Operação",
+    motivo: "-",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "MG",
     // Novos campos
@@ -17895,11 +17895,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SRN1F65",
-    reason: "Em Captação - Sem Previsão",
-    entryDate: "24/11/2025",
+    reason: "-",
+    entryDate: null,
     returnForecast: null,
     model: "I/Jac Ejv5.5",
     driver: null
@@ -18245,9 +18245,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Passeio",
     tipoFrota: "Própria",
     base: "SMG14",
-    status: "Falta",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "24/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "MG",
     // Novos campos
@@ -18265,11 +18265,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7B51",
     reason: "-",
-    entryDate: "24/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "VW/Polo Track MA",
     driver: null
@@ -18319,9 +18319,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Passeio",
     tipoFrota: "Própria",
     base: "SMG14",
-    status: "Falta",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "24/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "MG",
     // Novos campos
@@ -18339,11 +18339,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7B30",
     reason: "-",
-    entryDate: "24/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "VW/Polo Track MA",
     driver: null
@@ -18578,9 +18578,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Passeio",
     tipoFrota: "Própria",
     base: "SMG14",
-    status: "Aguardando Oficina",
-    motivo: "Manutenção - Verificar se tem solicitação",
-    entradaOFC: "24/11/2025",
+    status: "Em Operação",
+    motivo: "-",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "MG",
     // Novos campos
@@ -18598,11 +18598,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Manutenção",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7B20",
-    reason: "Manutenção - Verificar se tem solicitação",
-    entryDate: "24/11/2025",
+    reason: "-",
+    entryDate: null,
     returnForecast: null,
     model: "VW/Polo Track MA",
     driver: null
@@ -18931,7 +18931,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pety",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "RIX5J57",
     reason: "-",
@@ -19022,9 +19022,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Utilitário",
     tipoFrota: "Própria",
     base: "SMG14",
-    status: "Veículo Pronto",
-    motivo: "Oficina - Motor de Arranque - Oficina HP",
-    entradaOFC: "30/10/2025",
+    status: "Em Operação",
+    motivo: "-",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "MG",
     // Novos campos
@@ -19042,11 +19042,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "RJM2G96",
-    reason: "Oficina - Motor de Arranque - Oficina HP",
-    entryDate: "30/10/2025",
+    reason: "-",
+    entryDate: null,
     returnForecast: null,
     model: "Fiorino",
     driver: null
@@ -19059,9 +19059,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Utilitário",
     tipoFrota: "Própria",
     base: "SMG14",
-    status: "Em Oficina - Externo",
-    motivo: "Oficina - Suspensão - Oficina HP - Aguardando Orçamento - 12/11/2025",
-    entradaOFC: "31/10/2025",
+    status: "Em Operação",
+    motivo: "-",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "MG",
     // Novos campos
@@ -19079,11 +19079,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Manutenção",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "RKE2D69",
-    reason: "Oficina - Suspensão - Oficina HP - Aguardando Orçamento - 12/11/2025",
-    entryDate: "31/10/2025",
+    reason: "-",
+    entryDate: null,
     returnForecast: null,
     model: "Fiorino",
     driver: null
@@ -19651,9 +19651,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Passeio",
     tipoFrota: "Própria",
     base: "SMG14",
-    status: "Falta",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "21/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "MG",
     // Novos campos
@@ -19671,11 +19671,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7C19",
     reason: "-",
-    entryDate: "21/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "VW/Polo Track MA",
     driver: null
@@ -19819,7 +19819,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL2J17",
     reason: "-",
@@ -19836,9 +19836,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SMG14",
-    status: "Folga",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "24/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "MG",
     // Novos campos
@@ -19856,11 +19856,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Folga",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOL1H10",
     reason: "-",
-    entryDate: "24/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "Sprinter C 317",
     driver: null
@@ -19910,9 +19910,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SMG14",
-    status: "Aguardando Oficina",
-    motivo: "Agendado - Preventiva para o dia 24/11/2025",
-    entradaOFC: "17/11/2025",
+    status: "Em Operação",
+    motivo: "-",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "MG",
     // Novos campos
@@ -19930,11 +19930,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Manutenção",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOL2D24",
-    reason: "Agendado - Preventiva para o dia 24/11/2025",
-    entryDate: "17/11/2025",
+    reason: "-",
+    entryDate: null,
     returnForecast: null,
     model: "Sprinter C 317",
     driver: null
@@ -20078,7 +20078,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "LTY8J81",
     reason: "-",
@@ -20169,10 +20169,10 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Utilitário",
     tipoFrota: "Locação",
     base: "SMG2",
-    status: "Em Oficina - Rentals",
-    motivo: "Oficina - Luz no Painel - Safety Car - Com Reserva",
+    status: "Pós-Oficina",
+    motivo: "Oficina - Luz no Painel - Safety Car - Com Reserva - Veículo Pronto 25/11 - Retirado 25/11",
     entradaOFC: "07/11/2025",
-    previsaoSaida: "21/11/2025",
+    previsaoSaida: "25/11/2025",
     uf: "MG",
     // Novos campos
     placaReserva: null,
@@ -20189,12 +20189,12 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Localiza",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Manutenção",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "RUV4F11",
-    reason: "Oficina - Luz no Painel - Safety Car - Com Reserva",
+    reason: "Oficina - Luz no Painel - Safety Car - Com Reserva - Veículo Pronto 25/11 - Retirado 25/11",
     entryDate: "07/11/2025",
-    returnForecast: "21/11/2025",
+    returnForecast: "25/11/2025",
     model: "Partner",
     driver: null
   },
@@ -20246,7 +20246,7 @@ export const fleetVehicles: Vehicle[] = [
     status: "Em Oficina - Rentals",
     motivo: "Oficina - Sinistro/Colisão Frontal - Brasil Auto Center",
     entradaOFC: "19/11/2025",
-    previsaoSaida: null,
+    previsaoSaida: "12/12/2025",
     uf: "MG",
     // Novos campos
     placaReserva: null,
@@ -20268,7 +20268,7 @@ export const fleetVehicles: Vehicle[] = [
     licensePlate: "RUV4F44",
     reason: "Oficina - Sinistro/Colisão Frontal - Brasil Auto Center",
     entryDate: "19/11/2025",
-    returnForecast: null,
+    returnForecast: "12/12/2025",
     model: "Partner",
     driver: null
   },
@@ -20318,9 +20318,9 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrota: "Locação",
     base: "SMG2",
     status: "Em Oficina - Rentals",
-    motivo: "Oficina - Motor - Brasil Auto Center - Com Reserva",
+    motivo: "Oficina - Motor - Brasil Auto Center - Reserva Devolvido",
     entradaOFC: "15/09/2025",
-    previsaoSaida: "25/11/2025",
+    previsaoSaida: "28/11/2025",
     uf: "MG",
     // Novos campos
     placaReserva: null,
@@ -20340,9 +20340,9 @@ export const fleetVehicles: Vehicle[] = [
     resumoStatus: "Frota em Manutenção",
     // Campos de compatibilidade
     licensePlate: "RUV4F47",
-    reason: "Oficina - Motor - Brasil Auto Center - Com Reserva",
+    reason: "Oficina - Motor - Brasil Auto Center - Reserva Devolvido",
     entryDate: "15/09/2025",
-    returnForecast: "25/11/2025",
+    returnForecast: "28/11/2025",
     model: "Partner",
     driver: null
   },
@@ -20357,7 +20357,7 @@ export const fleetVehicles: Vehicle[] = [
     status: "Em Oficina - Rentals",
     motivo: "Oficina - Não Liga - Safety Car - Com Reserva",
     entradaOFC: "01/11/2025",
-    previsaoSaida: "21/11/2025",
+    previsaoSaida: "27/11/2025",
     uf: "MG",
     // Novos campos
     placaReserva: "TXD8E95",
@@ -20379,7 +20379,7 @@ export const fleetVehicles: Vehicle[] = [
     licensePlate: "RUV4F48",
     reason: "Oficina - Não Liga - Safety Car - Com Reserva",
     entryDate: "01/11/2025",
-    returnForecast: "21/11/2025",
+    returnForecast: "27/11/2025",
     model: "Partner",
     driver: null
   },
@@ -20428,8 +20428,8 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Utilitário",
     tipoFrota: "Locação",
     base: "SMG2",
-    status: "Em Oficina - Rentals",
-    motivo: "Oficina - Luz no Painel e Motor - Brasil Auto Center - Com Reserva",
+    status: "Pós-Oficina",
+    motivo: "Oficina - Luz no Painel e Motor - Brasil Auto Center - Com Reserva - Veículo Pronto 25/11 - Retirado 25/11",
     entradaOFC: "07/11/2025",
     previsaoSaida: "28/11/2025",
     uf: "MG",
@@ -20448,10 +20448,10 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Localiza",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Manutenção",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "RUV4F51",
-    reason: "Oficina - Luz no Painel e Motor - Brasil Auto Center - Com Reserva",
+    reason: "Oficina - Luz no Painel e Motor - Brasil Auto Center - Com Reserva - Veículo Pronto 25/11 - Retirado 25/11",
     entryDate: "07/11/2025",
     returnForecast: "28/11/2025",
     model: "Partner",
@@ -20633,7 +20633,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Localiza",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "RUV4F65",
     reason: "-",
@@ -20781,7 +20781,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "STZ1C44",
     reason: "-",
@@ -20855,7 +20855,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SUW1J22",
     reason: "-",
@@ -21299,7 +21299,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Localiza",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TDL1D15",
     reason: "-",
@@ -21336,7 +21336,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Localiza",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TCY7G88",
     reason: "-",
@@ -21706,7 +21706,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "LUJ7E06",
     reason: "-",
@@ -21797,9 +21797,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SMG2",
-    status: "Folga",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "24/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "MG",
     // Novos campos
@@ -21817,11 +21817,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Folga",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "RKP8H42",
     reason: "-",
-    entryDate: "24/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "Bongo UK2500 HD SC",
     driver: null
@@ -22093,9 +22093,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SMG2",
-    status: "Folga",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "24/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "MG",
     // Novos campos
@@ -22113,11 +22113,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Folga",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SGL8F67",
     reason: "-",
-    entryDate: "24/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "Daily 30Cs",
     driver: null
@@ -22352,9 +22352,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Locação",
     base: "XMG1",
-    status: "Sem Rota",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "24/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "MG",
     // Novos campos
@@ -22372,11 +22372,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "TKS",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TAS2E34",
     reason: "-",
-    entryDate: "24/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "Daily 35Cs",
     driver: null
@@ -22500,9 +22500,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SMG2",
-    status: "Aguardando Oficina",
-    motivo: "Manutenção - Verificar se tem solicitação",
-    entradaOFC: "24/11/2025",
+    status: "Em Operação",
+    motivo: "-",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "MG",
     // Novos campos
@@ -22520,11 +22520,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Lib Farma",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Manutenção",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "RKU8D21",
-    reason: "Manutenção - Verificar se tem solicitação",
-    entryDate: "24/11/2025",
+    reason: "-",
+    entryDate: null,
     returnForecast: null,
     model: "Bongo UK2500 HD SC",
     driver: null
@@ -22557,7 +22557,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Grupo Vamos",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SHX0J08",
     reason: "-",
@@ -22705,7 +22705,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL2A15",
     reason: "-",
@@ -22779,7 +22779,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL2B61",
     reason: "-",
@@ -22853,7 +22853,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL2C60",
     reason: "-",
@@ -22890,7 +22890,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL2D11",
     reason: "-",
@@ -22964,7 +22964,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL2C89",
     reason: "-",
@@ -23001,7 +23001,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Localiza",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TCO0C81",
     reason: "-",
@@ -23075,7 +23075,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL5J69",
     reason: "-",
@@ -23149,7 +23149,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL7C09",
     reason: "-",
@@ -23223,7 +23223,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL7C67",
     reason: "-",
@@ -23260,7 +23260,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL7C17",
     reason: "-",
@@ -23297,7 +23297,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL7C12",
     reason: "-",
@@ -24091,10 +24091,10 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Utilitário",
     tipoFrota: "Locação",
     base: "SMG6",
-    status: "Em Oficina - Rentals",
-    motivo: "Oficina - Não da Partida - Auto Center Aliança",
+    status: "Veículo Pronto",
+    motivo: "Oficina - Não da Partida - Auto Center Aliança - Veículo Pronto 26/11",
     entradaOFC: "20/11/2025",
-    previsaoSaida: null,
+    previsaoSaida: "26/11/2025",
     uf: "MG",
     // Novos campos
     placaReserva: null,
@@ -24111,12 +24111,12 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Localiza",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Manutenção",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "RUX2J06",
-    reason: "Oficina - Não da Partida - Auto Center Aliança",
+    reason: "Oficina - Não da Partida - Auto Center Aliança - Veículo Pronto 26/11",
     entryDate: "20/11/2025",
-    returnForecast: null,
+    returnForecast: "26/11/2025",
     model: "Partner",
     driver: null
   },
@@ -24203,12 +24203,12 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrota: "Locação",
     base: "SMG6",
     status: "Em Oficina - Rentals",
-    motivo: "Oficina - Suspensão , Estepe , Itens de Segurançã e Elétrica - Auto Diesel",
+    motivo: "Oficina - Suspensão , Estepe , Itens de Segurançã e Elétrica - Auto Diesel - Com Reserva",
     entradaOFC: "18/11/2025",
-    previsaoSaida: null,
+    previsaoSaida: "08/12/2025",
     uf: "MG",
     // Novos campos
-    placaReserva: "TCG3I83",
+    placaReserva: "TEO0G02",
     anoFabricacao: "2022",
     ultimoChecklist: null,
     statusMoki: null,
@@ -24225,9 +24225,9 @@ export const fleetVehicles: Vehicle[] = [
     resumoStatus: "Frota em Manutenção",
     // Campos de compatibilidade
     licensePlate: "RUX2J39",
-    reason: "Oficina - Suspensão , Estepe , Itens de Segurançã e Elétrica - Auto Diesel",
+    reason: "Oficina - Suspensão , Estepe , Itens de Segurançã e Elétrica - Auto Diesel - Com Reserva",
     entryDate: "18/11/2025",
-    returnForecast: null,
+    returnForecast: "08/12/2025",
     model: "Partner",
     driver: null
   },
@@ -24259,7 +24259,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Localiza",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "RUX2J42",
     reason: "-",
@@ -24296,7 +24296,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Localiza",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "RUX2J44",
     reason: "-",
@@ -24333,7 +24333,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SRZ9C90",
     reason: "-",
@@ -24407,7 +24407,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Arval",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TAR0C87",
     reason: "-",
@@ -24444,7 +24444,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Arval",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TAR0C93",
     reason: "-",
@@ -24481,7 +24481,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Arval",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TAR0C98",
     reason: "-",
@@ -24777,7 +24777,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SRY4B56",
     reason: "-",
@@ -25017,7 +25017,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrota: "Locação",
     base: "SMG8",
     status: "Em Oficina - Rentals",
-    motivo: "Oficina - Aqueceu - Car Center - Solicitado Reserva",
+    motivo: "Oficina - Aqueceu - Car Center - Com Reserva",
     entradaOFC: "14/11/2025",
     previsaoSaida: "28/11/2025",
     uf: "MG",
@@ -25039,7 +25039,7 @@ export const fleetVehicles: Vehicle[] = [
     resumoStatus: "Frota em Manutenção",
     // Campos de compatibilidade
     licensePlate: "RUV4F85",
-    reason: "Oficina - Aqueceu - Car Center - Solicitado Reserva",
+    reason: "Oficina - Aqueceu - Car Center - Com Reserva",
     entryDate: "14/11/2025",
     returnForecast: "28/11/2025",
     model: "Partner",
@@ -25054,9 +25054,9 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrota: "Locação",
     base: "SMG8",
     status: "Em Oficina - Rentals",
-    motivo: "Oficina - Luz de Óleo Acesa e Barulho no Motor - Car Center Oficina",
+    motivo: "Oficina - Luz de Óleo Acesa e Barulho no Motor - Car Center Oficina - Solicitar Reserva 26/11",
     entradaOFC: "20/11/2025",
-    previsaoSaida: null,
+    previsaoSaida: "12/12/2025",
     uf: "MG",
     // Novos campos
     placaReserva: null,
@@ -25076,9 +25076,9 @@ export const fleetVehicles: Vehicle[] = [
     resumoStatus: "Frota em Manutenção",
     // Campos de compatibilidade
     licensePlate: "RUV4G09",
-    reason: "Oficina - Luz de Óleo Acesa e Barulho no Motor - Car Center Oficina",
+    reason: "Oficina - Luz de Óleo Acesa e Barulho no Motor - Car Center Oficina - Solicitar Reserva 26/11",
     entryDate: "20/11/2025",
-    returnForecast: null,
+    returnForecast: "12/12/2025",
     model: "Partner",
     driver: null
   },
@@ -25313,9 +25313,9 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrota: "Locação",
     base: "SMG8",
     status: "Em Oficina - Rentals",
-    motivo: "Oficina - Possível Pane Elétrica - Car Center",
+    motivo: "Oficina - Possível Pane Elétrica - Car Center - Solicitar Reserva 26/11",
     entradaOFC: "22/11/2025",
-    previsaoSaida: null,
+    previsaoSaida: "31/12/2025",
     uf: "MG",
     // Novos campos
     placaReserva: "LUI5H43",
@@ -25335,9 +25335,9 @@ export const fleetVehicles: Vehicle[] = [
     resumoStatus: "Frota em Manutenção",
     // Campos de compatibilidade
     licensePlate: "SDT9F20",
-    reason: "Oficina - Possível Pane Elétrica - Car Center",
+    reason: "Oficina - Possível Pane Elétrica - Car Center - Solicitar Reserva 26/11",
     entryDate: "22/11/2025",
-    returnForecast: null,
+    returnForecast: "31/12/2025",
     model: "E-Jumpy Furgão 2P",
     driver: null
   },
@@ -25460,9 +25460,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Van Elétrica",
     tipoFrota: "Própria",
     base: "SMG8",
-    status: "Em Operação",
+    status: "Falta",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "MG",
     // Novos campos
@@ -25484,7 +25484,7 @@ export const fleetVehicles: Vehicle[] = [
     // Campos de compatibilidade
     licensePlate: "SRH1F33",
     reason: "-",
-    entryDate: null,
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "I/Jac Ejv5.5",
     driver: null
@@ -25665,7 +25665,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "LUO5G57",
     reason: "-",
@@ -25756,9 +25756,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Passeio",
     tipoFrota: "Própria",
     base: "SMG8",
-    status: "Aguardando Oficina",
-    motivo: "Manutenção - Verificar se tem solicitação",
-    entradaOFC: "22/11/2025",
+    status: "Em Operação",
+    motivo: "-",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "MG",
     // Novos campos
@@ -25776,11 +25776,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Manutenção",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7B45",
-    reason: "Manutenção - Verificar se tem solicitação",
-    entryDate: "22/11/2025",
+    reason: "-",
+    entryDate: null,
     returnForecast: null,
     model: "VW/Polo Track MA",
     driver: null
@@ -25813,7 +25813,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7B82",
     reason: "-",
@@ -26516,7 +26516,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "LUI5I43",
     reason: "-",
@@ -26755,9 +26755,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SPR1",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "PR",
     // Novos campos
@@ -26779,7 +26779,7 @@ export const fleetVehicles: Vehicle[] = [
     // Campos de compatibilidade
     licensePlate: "TOF4I04",
     reason: "-",
-    entryDate: null,
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "Daily 30CS",
     driver: null
@@ -26977,8 +26977,8 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Utilitário",
     tipoFrota: "Própria",
     base: "SPR1",
-    status: "Aguardando Oficina",
-    motivo: "Manutenção - Verificar se tem solicitação",
+    status: "Sem Motorista",
+    motivo: "-",
     entradaOFC: "12/11/2025",
     previsaoSaida: null,
     uf: "PR",
@@ -26997,10 +26997,10 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pety",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Manutenção",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SGK2F21",
-    reason: "Manutenção - Verificar se tem solicitação",
+    reason: "-",
     entryDate: "12/11/2025",
     returnForecast: null,
     model: "Fiorino",
@@ -27273,9 +27273,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SPR3",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "PR",
     // Novos campos
@@ -27297,7 +27297,7 @@ export const fleetVehicles: Vehicle[] = [
     // Campos de compatibilidade
     licensePlate: "SFP6B94",
     reason: "-",
-    entryDate: null,
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "Sprinter C 315",
     driver: null
@@ -27458,9 +27458,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Van",
     tipoFrota: "Própria",
     base: "SPR7",
-    status: "Sem Motorista",
-    motivo: "Em captação",
-    entradaOFC: "21/11/2025",
+    status: "Em Operação",
+    motivo: "-",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "PR",
     // Novos campos
@@ -27478,11 +27478,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pety",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SGD9A22",
-    reason: "Em captação",
-    entryDate: "21/11/2025",
+    reason: "-",
+    entryDate: null,
     returnForecast: null,
     model: "Jumper L2H2",
     driver: null
@@ -27515,7 +27515,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pety",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SRD4J78",
     reason: "-",
@@ -27626,7 +27626,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SRU6A44",
     reason: "-",
@@ -27811,7 +27811,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SRB5A16",
     reason: "-",
@@ -28070,7 +28070,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "FZV6H42",
     reason: "-",
@@ -28161,9 +28161,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Locação",
     base: "SPR8",
-    status: "Sem Rota",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "20/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "PR",
     // Novos campos
@@ -28181,11 +28181,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "LM",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SVF3D53",
     reason: "-",
-    entryDate: "20/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "Express Drf 4X2",
     driver: null
@@ -28218,7 +28218,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SGK7E76",
     reason: "-",
@@ -28235,9 +28235,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SPR1",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "01/12/2025",
     previsaoSaida: null,
     uf: "PR",
     // Novos campos
@@ -28259,7 +28259,7 @@ export const fleetVehicles: Vehicle[] = [
     // Campos de compatibilidade
     licensePlate: "TOE1D31",
     reason: "-",
-    entryDate: null,
+    entryDate: "01/12/2025",
     returnForecast: null,
     model: "DAILY 30CS",
     driver: null
@@ -28366,7 +28366,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "LM",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SVN4I43",
     reason: "-",
@@ -28847,7 +28847,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pety",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SFP5G44",
     reason: "-",
@@ -29012,9 +29012,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SPR8",
-    status: "Em Operação",
-    motivo: "-",
-    entradaOFC: null,
+    status: "Sem Motorista",
+    motivo: "Em Captação - Sem Previsão",
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "PR",
     // Novos campos
@@ -29035,8 +29035,8 @@ export const fleetVehicles: Vehicle[] = [
     resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SFP8C70",
-    reason: "-",
-    entryDate: null,
+    reason: "Em Captação - Sem Previsão",
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "Sprinter C 315",
     driver: null
@@ -29106,7 +29106,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SGK7E40",
     reason: "-",
@@ -29217,7 +29217,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SGK7F33",
     reason: "-",
@@ -29254,7 +29254,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pety",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SRC8C40",
     reason: "-",
@@ -29513,7 +29513,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "LM",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SUT9F23",
     reason: "-",
@@ -29550,7 +29550,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOE1C32",
     reason: "-",
@@ -29698,7 +29698,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOG3H25",
     reason: "-",
@@ -29715,10 +29715,10 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Locação",
     base: "SPR8",
-    status: "Em Oficina - Externo",
-    motivo: "Oficina - Perda de força - Servopa",
-    entradaOFC: "10/10/2025",
-    previsaoSaida: "17/11/2025",
+    status: "Em Operação",
+    motivo: "-",
+    entradaOFC: null,
+    previsaoSaida: null,
     uf: "PR",
     // Novos campos
     placaReserva: null,
@@ -29735,12 +29735,12 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "LM",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Manutenção",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SWK4B73",
-    reason: "Oficina - Perda de força - Servopa",
-    entryDate: "10/10/2025",
-    returnForecast: "17/11/2025",
+    reason: "-",
+    entryDate: null,
+    returnForecast: null,
     model: "Express Drf 4X2",
     driver: null
   },
@@ -29920,7 +29920,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL2F09",
     reason: "-",
@@ -30068,7 +30068,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Angelo",
     atuacao: "ADM",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "RMY8G90",
     reason: "-",
@@ -30270,9 +30270,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SRJ1",
-    status: "Aguardando Oficina",
-    motivo: "Manutenção - Verificar se tem solicitação",
-    entradaOFC: "21/11/2025",
+    status: "Em Operação",
+    motivo: "-",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -30290,11 +30290,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Manutenção",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SGK7F00",
-    reason: "Manutenção - Verificar se tem solicitação",
-    entryDate: "21/11/2025",
+    reason: "-",
+    entryDate: null,
     returnForecast: null,
     model: "Daily 30Cs",
     driver: null
@@ -30438,7 +30438,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7C04",
     reason: "-",
@@ -30455,9 +30455,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Passeio",
     tipoFrota: "Própria",
     base: "SRJ1",
-    status: "Falta",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "22/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -30475,11 +30475,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "LTS3A88",
     reason: "-",
-    entryDate: "22/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "Gol 1.0",
     driver: null
@@ -30529,9 +30529,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Passeio",
     tipoFrota: "Própria",
     base: "SRJ1",
-    status: "Aguardando Oficina",
-    motivo: "Manutenção - Verificar se tem solicitação",
-    entradaOFC: "21/11/2025",
+    status: "Em Operação",
+    motivo: "-",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -30549,11 +30549,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Manutenção",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "RFG2F81",
-    reason: "Manutenção - Verificar se tem solicitação",
-    entryDate: "21/11/2025",
+    reason: "-",
+    entryDate: null,
     returnForecast: null,
     model: "Uno Attractive 1.0",
     driver: null
@@ -30586,7 +30586,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOJ7A89",
     reason: "-",
@@ -30640,9 +30640,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Passeio",
     tipoFrota: "Própria",
     base: "SRJ1",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -30664,7 +30664,7 @@ export const fleetVehicles: Vehicle[] = [
     // Campos de compatibilidade
     licensePlate: "TOJ7B42",
     reason: "-",
-    entryDate: null,
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "VW/Polo Track MA",
     driver: null
@@ -30697,7 +30697,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOJ7B78",
     reason: "-",
@@ -30845,7 +30845,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7C17",
     reason: "-",
@@ -30882,7 +30882,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "LM",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "GKH6G93",
     reason: "-",
@@ -30919,7 +30919,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "KPP8B33",
     reason: "-",
@@ -31289,7 +31289,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pety",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SGJ2F44",
     reason: "-",
@@ -31343,9 +31343,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Passeio",
     tipoFrota: "Própria",
     base: "SRJ1",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -31367,7 +31367,7 @@ export const fleetVehicles: Vehicle[] = [
     // Campos de compatibilidade
     licensePlate: "SGJ2G86",
     reason: "-",
-    entryDate: null,
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "Cronos Drive 1.0",
     driver: null
@@ -31400,7 +31400,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pety",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SGJ2G98",
     reason: "-",
@@ -31528,9 +31528,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SRJ1",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -31552,7 +31552,7 @@ export const fleetVehicles: Vehicle[] = [
     // Campos de compatibilidade
     licensePlate: "SGK7E68",
     reason: "-",
-    entryDate: null,
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "Daily 30Cs",
     driver: null
@@ -31585,7 +31585,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SGK7E79",
     reason: "-",
@@ -31676,9 +31676,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SRJ1",
-    status: "Falta",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "22/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -31696,11 +31696,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SGL8D07",
     reason: "-",
-    entryDate: "22/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "Daily 30Cs",
     driver: null
@@ -31770,7 +31770,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SRA7J03",
     reason: "-",
@@ -31787,9 +31787,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Passeio",
     tipoFrota: "Própria",
     base: "SRJ1",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -31811,7 +31811,7 @@ export const fleetVehicles: Vehicle[] = [
     // Campos de compatibilidade
     licensePlate: "SRA7J05",
     reason: "-",
-    entryDate: null,
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "Cronos Drive 1.0",
     driver: null
@@ -31881,7 +31881,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SRA7J08",
     reason: "-",
@@ -31918,7 +31918,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SRC1B99",
     reason: "-",
@@ -31955,7 +31955,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SRH5C60",
     reason: "-",
@@ -32066,7 +32066,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SRL5C49",
     reason: "-",
@@ -32140,7 +32140,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SRN5C38",
     reason: "-",
@@ -32157,9 +32157,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Passeio",
     tipoFrota: "Própria",
     base: "SRJ1",
-    status: "Folga",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "22/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -32177,11 +32177,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Folga",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SRN6F73",
     reason: "-",
-    entryDate: "22/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "Cronos Drive 1.0",
     driver: null
@@ -32214,7 +32214,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "LM",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "STY2B90",
     reason: "-",
@@ -32251,7 +32251,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOE1D96",
     reason: "-",
@@ -32288,7 +32288,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7B16",
     reason: "-",
@@ -32473,7 +32473,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7B77",
     reason: "-",
@@ -32490,9 +32490,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Passeio",
     tipoFrota: "Própria",
     base: "SRJ1",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -32514,7 +32514,7 @@ export const fleetVehicles: Vehicle[] = [
     // Campos de compatibilidade
     licensePlate: "TOJ7B79",
     reason: "-",
-    entryDate: null,
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "VW/Polo Track MA",
     driver: null
@@ -32564,9 +32564,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Passeio",
     tipoFrota: "Própria",
     base: "SRJ1",
-    status: "Sem Rota",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "21/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -32584,11 +32584,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7B92",
     reason: "-",
-    entryDate: "21/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "VW/Polo Track MA",
     driver: null
@@ -32675,9 +32675,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Passeio",
     tipoFrota: "Própria",
     base: "SRJ1",
-    status: "Falta",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "22/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -32695,11 +32695,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7B27",
     reason: "-",
-    entryDate: "22/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "VW/Polo Track MA",
     driver: null
@@ -32769,7 +32769,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Arval",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TAR8A20",
     reason: "-",
@@ -32806,7 +32806,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "QUY9F54",
     reason: "-",
@@ -32937,7 +32937,7 @@ export const fleetVehicles: Vehicle[] = [
     status: "Em Oficina - Rentals",
     motivo: "Oficina - Funilaria - Monobloco - Com Reserva",
     entradaOFC: "29/10/2025",
-    previsaoSaida: "27/11/2025",
+    previsaoSaida: "29/11/2025",
     uf: "RJ",
     // Novos campos
     placaReserva: "TXN1J61",
@@ -32959,7 +32959,7 @@ export const fleetVehicles: Vehicle[] = [
     licensePlate: "SDQ2A49",
     reason: "Oficina - Funilaria - Monobloco - Com Reserva",
     entryDate: "29/10/2025",
-    returnForecast: "27/11/2025",
+    returnForecast: "29/11/2025",
     model: "E-Expert Elétrico 2P",
     driver: null
   },
@@ -33046,8 +33046,8 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrota: "Locação",
     base: "SRJ10",
     status: "Em Operação",
-    motivo: "-",
-    entradaOFC: null,
+    motivo: "Não é Manutenção - Validado Diego",
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -33068,8 +33068,8 @@ export const fleetVehicles: Vehicle[] = [
     resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SDQ2C19",
-    reason: "-",
-    entryDate: null,
+    reason: "Não é Manutenção - Validado Diego",
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "Kangoo Z.E. MAXI 2 Lugares 2P",
     driver: null
@@ -33324,7 +33324,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Localiza",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SDT9G54",
     reason: "-",
@@ -33378,9 +33378,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SRJ10",
-    status: "Em Oficina - Trois",
-    motivo: "Preventiva",
-    entradaOFC: "13/11/2025",
+    status: "Em Operação",
+    motivo: "-",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -33398,11 +33398,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Lib Farma",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Manutenção",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SRN6A30",
-    reason: "Preventiva",
-    entryDate: "13/11/2025",
+    reason: "-",
+    entryDate: null,
     returnForecast: null,
     model: "Daily 45Cs",
     driver: null
@@ -33822,9 +33822,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Utilitário",
     tipoFrota: "Locação",
     base: "SRJ10",
-    status: "Em Operação",
+    status: "Falta",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -33846,7 +33846,7 @@ export const fleetVehicles: Vehicle[] = [
     // Campos de compatibilidade
     licensePlate: "TXN1J61",
     reason: "-",
-    entryDate: null,
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "Fiorino",
     driver: null
@@ -33879,7 +33879,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "LUI5I42",
     reason: "-",
@@ -33916,7 +33916,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "LUI5H74",
     reason: "-",
@@ -34249,7 +34249,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pety",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SGD8J51",
     reason: "-",
@@ -34286,7 +34286,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pety",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SGJ2A42",
     reason: "-",
@@ -34360,7 +34360,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pety",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SGJ2E55",
     reason: "-",
@@ -34397,7 +34397,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pety",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SGJ2F19",
     reason: "-",
@@ -34471,7 +34471,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pety",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SGJ2G03",
     reason: "-",
@@ -34488,9 +34488,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Passeio",
     tipoFrota: "Própria",
     base: "SRJ10",
-    status: "Em Operação",
+    status: "Falta",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -34512,7 +34512,7 @@ export const fleetVehicles: Vehicle[] = [
     // Campos de compatibilidade
     licensePlate: "SGJ2G80",
     reason: "-",
-    entryDate: null,
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "Cronos Drive 1.0",
     driver: null
@@ -34656,7 +34656,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "LM",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SJZ0F64",
     reason: "-",
@@ -34767,7 +34767,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SRE7H43",
     reason: "-",
@@ -34804,7 +34804,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SRE7H51",
     reason: "-",
@@ -34915,7 +34915,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SRL2J51",
     reason: "-",
@@ -35043,9 +35043,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Passeio",
     tipoFrota: "Própria",
     base: "SRJ10",
-    status: "Falta",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "22/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -35063,11 +35063,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7B41",
     reason: "-",
-    entryDate: "22/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "VW/Polo Track MA",
     driver: null
@@ -35100,7 +35100,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOJ7B54",
     reason: "-",
@@ -35154,9 +35154,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Passeio",
     tipoFrota: "Própria",
     base: "SRJ10",
-    status: "Falta",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "22/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -35174,11 +35174,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7C15",
     reason: "-",
-    entryDate: "22/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "VW/Polo Track MA",
     driver: null
@@ -35211,7 +35211,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7B46",
     reason: "-",
@@ -35265,9 +35265,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Passeio",
     tipoFrota: "Própria",
     base: "SRJ10",
-    status: "Em Operação",
+    status: "Falta",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -35289,7 +35289,7 @@ export const fleetVehicles: Vehicle[] = [
     // Campos de compatibilidade
     licensePlate: "TOJ7B85",
     reason: "-",
-    entryDate: null,
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "VW/Polo Track MA",
     driver: null
@@ -35339,9 +35339,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Utilitário",
     tipoFrota: "Locação",
     base: "SRJ12",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -35363,7 +35363,7 @@ export const fleetVehicles: Vehicle[] = [
     // Campos de compatibilidade
     licensePlate: "RVH4D04",
     reason: "-",
-    entryDate: null,
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "Fiorino",
     driver: null
@@ -35413,9 +35413,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SRJ12",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -35437,7 +35437,7 @@ export const fleetVehicles: Vehicle[] = [
     // Campos de compatibilidade
     licensePlate: "SVP2D54",
     reason: "-",
-    entryDate: null,
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "Sprinter C 517",
     driver: null
@@ -35470,7 +35470,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "LUO5G51",
     reason: "-",
@@ -35524,10 +35524,10 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Utilitário",
     tipoFrota: "Própria",
     base: "SRJ12",
-    status: "Em Oficina - Externo",
-    motivo: "Manutenção - verificar se tem solicitação",
-    entradaOFC: "15/11/2025",
-    previsaoSaida: "24/11/2025",
+    status: "Em Operação",
+    motivo: "-",
+    entradaOFC: null,
+    previsaoSaida: null,
     uf: "RJ",
     // Novos campos
     placaReserva: null,
@@ -35544,12 +35544,12 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Manutenção",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "QUY9F11",
-    reason: "Manutenção - verificar se tem solicitação",
-    entryDate: "15/11/2025",
-    returnForecast: "24/11/2025",
+    reason: "-",
+    entryDate: null,
+    returnForecast: null,
     model: "Fiorino",
     driver: null
   },
@@ -35581,7 +35581,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "RGB5C54",
     reason: "-",
@@ -35618,7 +35618,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Lib Farma",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "RJH3F08",
     reason: "-",
@@ -35655,7 +35655,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pety",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SGK2F16",
     reason: "-",
@@ -35692,7 +35692,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pety",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SGK3A19",
     reason: "-",
@@ -35729,7 +35729,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pety",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SGK3A32",
     reason: "-",
@@ -35766,7 +35766,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SGL8C80",
     reason: "-",
@@ -35803,7 +35803,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SGL8F53",
     reason: "-",
@@ -35857,9 +35857,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SRJ3",
-    status: "Em Operação",
-    motivo: "-",
-    entradaOFC: null,
+    status: "Aguardando Oficina",
+    motivo: "Manutenção - Verificar se tem solicitação",
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -35877,11 +35877,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Lib Farma",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Manutenção",
     // Campos de compatibilidade
     licensePlate: "RJY9D40",
-    reason: "-",
-    entryDate: null,
+    reason: "Manutenção - Verificar se tem solicitação",
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "Bongo UK2500 HD SC",
     driver: null
@@ -36449,9 +36449,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SRJ3",
-    status: "Sem Rota",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "22/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -36469,11 +36469,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOE1E58",
     reason: "-",
-    entryDate: "22/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "Daily 30CS",
     driver: null
@@ -36543,7 +36543,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7C22",
     reason: "-",
@@ -36597,9 +36597,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SRJ3",
-    status: "Sem Rota",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "22/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -36617,11 +36617,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SGK7E44",
     reason: "-",
-    entryDate: "22/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "Daily 30Cs",
     driver: null
@@ -36839,7 +36839,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7B52",
     reason: "-",
@@ -36876,7 +36876,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7B64",
     reason: "-",
@@ -36913,7 +36913,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7C00",
     reason: "-",
@@ -37115,9 +37115,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SRJ5",
-    status: "Em Operação",
-    motivo: "-",
-    entradaOFC: null,
+    status: "Aguardando Oficina",
+    motivo: "Manutenção - Verificar se tem solicitação",
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -37135,11 +37135,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Manutenção",
     // Campos de compatibilidade
     licensePlate: "SRL2J43",
-    reason: "-",
-    entryDate: null,
+    reason: "Manutenção - Verificar se tem solicitação",
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "Bongo UK2500 HD SC 4WD",
     driver: null
@@ -37374,9 +37374,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Utilitário",
     tipoFrota: "Própria",
     base: "SRJ5",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "SC",
     // Novos campos
@@ -37398,7 +37398,7 @@ export const fleetVehicles: Vehicle[] = [
     // Campos de compatibilidade
     licensePlate: "QUS3C22",
     reason: "-",
-    entryDate: null,
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "Fiorino",
     driver: null
@@ -37505,7 +37505,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7B98",
     reason: "-",
@@ -37542,7 +37542,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOJ7B35",
     reason: "-",
@@ -37579,7 +37579,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7B60",
     reason: "-",
@@ -37744,9 +37744,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Passeio",
     tipoFrota: "Própria",
     base: "SRJ8",
-    status: "Em Operação",
+    status: "Folga",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "RJ",
     // Novos campos
@@ -37764,11 +37764,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Folga",
     // Campos de compatibilidade
     licensePlate: "TOJ7B74",
     reason: "-",
-    entryDate: null,
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "VW/Polo Track MA",
     driver: null
@@ -37801,7 +37801,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TOJ7B22",
     reason: "-",
@@ -37838,7 +37838,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "LM",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "EZY5F02",
     reason: "-",
@@ -38430,7 +38430,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pety",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SFP6E94",
     reason: "-",
@@ -38652,7 +38652,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SGK3A26",
     reason: "-",
@@ -38985,7 +38985,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: null,
     gestor: null,
     atuacao: null,
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL7C21",
     reason: "-",
@@ -39244,7 +39244,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SQY7E12",
     reason: "-",
@@ -39318,7 +39318,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SQZ4H81",
     reason: "-",
@@ -39335,9 +39335,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Van Elétrica",
     tipoFrota: "Própria",
     base: "SRS8",
-    status: "Em Operação",
-    motivo: "-",
-    entradaOFC: null,
+    status: "Aguardando Oficina",
+    motivo: "Manutenção - Verificar se tem solicitação",
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "RS",
     // Novos campos
@@ -39355,11 +39355,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Manutenção",
     // Campos de compatibilidade
     licensePlate: "SQZ4H84",
-    reason: "-",
-    entryDate: null,
+    reason: "Manutenção - Verificar se tem solicitação",
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "I/Jac Ejv5.5",
     driver: null
@@ -39429,7 +39429,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "SRG4B20",
     reason: "-",
@@ -39651,7 +39651,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "LM",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "STL5A43",
     reason: "-",
@@ -39668,9 +39668,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Vuc",
     tipoFrota: "Própria",
     base: "SRS8",
-    status: "Sem Rota",
+    status: "Em Operação",
     motivo: "-",
-    entradaOFC: "20/11/2025",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "RS",
     // Novos campos
@@ -39688,11 +39688,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pety",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SRM8B88",
     reason: "-",
-    entryDate: "20/11/2025",
+    entryDate: null,
     returnForecast: null,
     model: "Daily 30Cs",
     driver: null
@@ -40704,9 +40704,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Utilitário",
     tipoFrota: "Própria",
     base: "SSC2",
-    status: "Sem Motorista",
-    motivo: "Sem Previsão",
-    entradaOFC: "29/10/2025",
+    status: "Em Operação",
+    motivo: "-",
+    entradaOFC: null,
     previsaoSaida: null,
     uf: "SC",
     // Novos campos
@@ -40724,11 +40724,11 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "SRJ3C71",
-    reason: "Sem Previsão",
-    entryDate: "29/10/2025",
+    reason: "-",
+    entryDate: null,
     returnForecast: null,
     model: "Partner",
     driver: null
@@ -40872,7 +40872,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Arval",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TAR0C69",
     reason: "-",
@@ -41000,9 +41000,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Van Elétrica",
     tipoFrota: "Locação",
     base: "SSC2",
-    status: "Em Operação",
+    status: "Sem Rota",
     motivo: "-",
-    entradaOFC: null,
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "SC",
     // Novos campos
@@ -41024,7 +41024,7 @@ export const fleetVehicles: Vehicle[] = [
     // Campos de compatibilidade
     licensePlate: "TAT1A76",
     reason: "-",
-    entryDate: null,
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "EJV12",
     driver: null
@@ -41111,10 +41111,10 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Van Elétrica",
     tipoFrota: "Locação",
     base: "SSC2",
-    status: "Pós-Oficina",
-    motivo: "Oficina - Revisão/Preventiva - CCS Ford - Veículo Pronto 19/11 - Retirado 24/11",
-    entradaOFC: "12/11/2025",
-    previsaoSaida: "19/11/2025",
+    status: "Em Operação",
+    motivo: "-",
+    entradaOFC: null,
+    previsaoSaida: null,
     uf: "SC",
     // Novos campos
     placaReserva: null,
@@ -41131,12 +41131,12 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Localiza",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TCV9I94",
-    reason: "Oficina - Revisão/Preventiva - CCS Ford - Veículo Pronto 19/11 - Retirado 24/11",
-    entryDate: "12/11/2025",
-    returnForecast: "19/11/2025",
+    reason: "-",
+    entryDate: null,
+    returnForecast: null,
     model: "E-Transit Furgão L3H3",
     driver: null
   },
@@ -41501,7 +41501,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "Pralog",
     gestor: "Marley",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TOL5J64",
     reason: "-",
@@ -42056,7 +42056,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "TKS",
     gestor: "Flávio Rodrigues",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota Ociosa",
+    resumoStatus: "Frota em Utilização",
     // Campos de compatibilidade
     licensePlate: "TAS2J51",
     reason: "SEGUNDA À SEXTA",
@@ -42110,9 +42110,9 @@ export const fleetVehicles: Vehicle[] = [
     categoria: "Truck",
     tipoFrota: "Própria",
     base: "XMG1",
-    status: "Sem Rota",
+    status: "Falta",
     motivo: "SEGUNDA À SEXTA",
-    entradaOFC: null,
+    entradaOFC: "24/11/2025",
     previsaoSaida: null,
     uf: "MG",
     // Novos campos
@@ -42134,7 +42134,7 @@ export const fleetVehicles: Vehicle[] = [
     // Campos de compatibilidade
     licensePlate: "RJN5G15",
     reason: "SEGUNDA À SEXTA",
-    entryDate: null,
+    entryDate: "24/11/2025",
     returnForecast: null,
     model: "Tector 240E28",
     driver: null
@@ -42167,7 +42167,7 @@ export const fleetVehicles: Vehicle[] = [
     tipoFrotaManutencao: "TKS",
     gestor: "Patricia Veloso",
     atuacao: "Mercado Livre",
-    resumoStatus: "Frota em Utilização",
+    resumoStatus: "Frota Ociosa",
     // Campos de compatibilidade
     licensePlate: "TAS2E94",
     reason: "-",
